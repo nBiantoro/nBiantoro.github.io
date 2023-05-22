@@ -1,0 +1,119 @@
+body {
+    background-color: #faf8ff;
+    color: #581c87;
+
+}
+
+p {
+    text-align: justify;
+
+}
+
+a {
+    text-decoration: none;
+    color: #581c87;
+    font-weight: bolder;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid #581c87;
+}
+
+sup {
+    font-size: x-small;
+    vertical-align: super;
+
+}
+
+/* divs */
+#div-alternate {
+    background-color: #581c87;
+    color: #faf8ff;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #ffffff 0.1;
+    padding: 3rem;
+}
+
+.navbar-brand {
+    color: #9e9e9e;
+    font-weight: 400;
+}
+
+.navbar-brand:hover {
+    color: #581c87;
+}
+
+
+/* navbar items */
+.nav-link {
+    color: #9e9e9e;
+
+}
+
+.nav-link:hover {
+    color: #581c87;
+}
+
+#navitem-current {
+    color: #581c87;
+}
+
+/* navbar-btn-toggler */
+.navbar-toggler {
+    border: none;
+    color: #9e9e9e;
+}
+
+.navbar-toggler:enabled {
+    color: #581c87;
+    border: none;
+}
+
+/* button */
+.btn {
+    border: none;
+    padding: 1rem;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #581c87;
+}
+
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #581c87;
+}
+
+/* others */
+
+.nav-overview {
+    font-weight: bold;
+    color: #581c87;
+
+}
+
+.nav-overview:hover {
+    text-decoration: underline;
+}
+
+.col-overview {
+    border: 4px solid #581c87;
+
+}
+
+.card {
+    background-color: #faf8ff;
+    color: #581c87;
+    border: 3px solid #581c87;
+    border-radius: 1.25rem;
+}
+
