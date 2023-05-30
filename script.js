@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', function() {
         });
   
         // Set background color for the clicked tag
-        tag.style.backgroundColor = 'purple';
+        tag.style.backgroundColor = '#581c87';
         tag.style.color = 'white';
         tag.classList.add('active');
   
