@@ -9,11 +9,13 @@ window.addEventListener('DOMContentLoaded', function() {
         // Reset background color for all tags
         tags.forEach(t => {
           t.style.backgroundColor = '';
+          t.style.color = 'black';
           t.classList.remove('active');
         });
   
         // Set background color for the clicked tag
         tag.style.backgroundColor = 'purple';
+        tag.style.color = 'white';
         tag.classList.add('active');
   
         items.forEach(item => {
